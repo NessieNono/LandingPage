@@ -1,0 +1,15 @@
+section {
+	background-color: #f3f3f3;
+	text-align: center;
+	padding: 10%;
+}
+
+
+button {
+	margin-right: 1rem;
+}
+
+.btn-dark:hover {
+	color: #23272b;
+	background-color: transparent;
+}

@@ -1,0 +1,16 @@
+section { 
+	background-color: #f3f3f3;
+	background-image: url(https://i.pinimg.com/originals/d7/84/42/d78442c743efd6ff4f8ebdedab9820d6.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+.banner {
+	height: 480px;
+	overflow-y: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}

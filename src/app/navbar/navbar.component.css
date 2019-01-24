@@ -1,0 +1,27 @@
+nav {
+	background-color: #f3f3f3;
+}
+
+.buttons {
+	display: flex;
+	flex-direction: row;
+}
+button {
+	font-family: 'Staatliches', sans-serif;
+	font-size: 1.2rem;
+	background-color: transparent;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	-webkit-transition: color 0.3s; /* Safari */
+	transition: color 0.3s;	
+}
+
+button:hover {
+	color: #DD546B;
+}
+
+.container {
+	margin-bottom:0rem; margin-top:0rem;
+	padding: 0rem;
+}

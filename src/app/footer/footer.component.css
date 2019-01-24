@@ -1,0 +1,12 @@
+section { 
+	background-color: #f3f3f3;
+}
+
+* { 
+	text-align: left;
+}
+
+a { 
+	text-decoration: none;
+	display: block;
+}
