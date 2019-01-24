@@ -10,3 +10,7 @@ a {
 	text-decoration: none;
 	display: block;
 }
+
+.col { 
+	width: 100%;
+}
