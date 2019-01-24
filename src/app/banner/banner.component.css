@@ -1,11 +1,11 @@
 section { 
 	background-color: #f3f3f3;
-	background-image: url(https://i.pinimg.com/originals/d7/84/42/d78442c743efd6ff4f8ebdedab9820d6.jpg);
+	background-image: url(https://images.unsplash.com/photo-1465173121987-373740a169b3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
 	background-repeat: no-repeat;
-	background-attachment: scroll;
+	background-attachment: fixed;
 	background-size: cover;
+	color: black;
 }
-
 
 .banner {
 	height: 480px;
@@ -19,7 +19,7 @@ section {
 
 @media (min-width: 576px) {
 	section {
-		background-attachment: fixed;
 		background-size: cover;
+		background-attachment: fixed;
 	}
 }
