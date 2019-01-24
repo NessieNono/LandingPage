@@ -5,8 +5,9 @@ nav {
 .buttons {
 	display: flex;
 	flex-direction: row;
+	display: none;
 }
-button {
+button, .dropdown {
 	font-family: 'Staatliches', sans-serif;
 	font-size: 1.2rem;
 	background-color: transparent;
@@ -17,6 +18,11 @@ button {
 	transition: color 0.3s;	
 }
 
+
+.dropdown-menu { 
+	font-size: 1.2rem;
+}
+
 button:hover {
 	color: #DD546B;
 }
@@ -24,4 +30,23 @@ button:hover {
 .container {
 	margin-bottom:0rem; margin-top:0rem;
 	padding: 0rem;
+}
+
+
+a { 
+	color: black;
+}
+
+a:hover {
+	color: #DD546B;
+}
+
+
+@media (min-width: 768px) {
+	.buttons {
+		display: block;
+	}
+	.dropdown {
+		display: none;
+	}
 }
